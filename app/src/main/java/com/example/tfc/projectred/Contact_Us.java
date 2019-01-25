@@ -44,13 +44,6 @@ public class Contact_Us extends AppCompatActivity {
             }
         });
 
-
-
-
-
-
-
-
     }
 
     @Override
