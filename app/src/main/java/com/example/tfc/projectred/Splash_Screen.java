@@ -20,7 +20,7 @@ public class Splash_Screen extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             public void run() {
                 finish();
-                Intent i3 = new Intent(Splash_Screen.this, Contact_Us.class);
+                Intent i3 = new Intent(Splash_Screen.this, Main_Menu.class);
                 startActivity(i3);
             overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);}
         }, timer);

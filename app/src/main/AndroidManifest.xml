@@ -16,15 +16,21 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Splash_Screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity android:name=".Main_Menu" />
-        <activity android:name=".Contact_Us"></activity>
-        <activity android:name=".FAQ" ></activity>
-        <activity android:name=".About_Na"> <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter></activity>
+        <activity android:name=".Contact_Us" />
+        <activity android:name=".FAQ" />
+        <activity android:name=".About_Na"></activity>
+        <activity
+            android:name=".Navigation"
+            android:label="@string/title_activity_navigation"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".SmartNa_plus"></activity>
     </application>
 
 </manifest>
