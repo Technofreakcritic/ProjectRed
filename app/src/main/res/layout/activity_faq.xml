@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#52f3fd"
-    tools:context=".FAQ">
+    tools:context=".B7_FAQ">
 
 
 </android.support.constraint.ConstraintLayout>

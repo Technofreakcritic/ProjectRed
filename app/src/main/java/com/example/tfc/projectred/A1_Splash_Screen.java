@@ -5,7 +5,7 @@ import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Splash_Screen extends AppCompatActivity {
+public class A1_Splash_Screen extends AppCompatActivity {
 
     protected boolean active = true;
     final int timer = 2000;
@@ -20,7 +20,7 @@ public class Splash_Screen extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             public void run() {
                 finish();
-                Intent i3 = new Intent(Splash_Screen.this, Main_Menu.class);
+                Intent i3 = new Intent(A1_Splash_Screen.this, A2_Main_Menu.class);
                 startActivity(i3);
             overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);}
         }, timer);

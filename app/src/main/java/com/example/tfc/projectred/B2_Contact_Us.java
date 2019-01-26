@@ -5,15 +5,12 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ImageButton;
 
-public class Contact_Us extends AppCompatActivity {
+public class B2_Contact_Us extends AppCompatActivity {
 
     private ImageButton phone,email;
     private ImageButton fb,tw;
@@ -37,7 +34,7 @@ public class Contact_Us extends AppCompatActivity {
 
                 Intent call = new Intent(Intent.ACTION_CALL,a);
 
-                if (ActivityCompat.checkSelfPermission(Contact_Us.this,Manifest.permission.CALL_PHONE)!=
+                if (ActivityCompat.checkSelfPermission(B2_Contact_Us.this,Manifest.permission.CALL_PHONE)!=
                         PackageManager.PERMISSION_GRANTED)
                 {return;}
                 startActivity(call);

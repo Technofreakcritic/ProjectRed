@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#00F0FF"
-    tools:context=".Contact_Us">
+    tools:context=".B2_Contact_Us">
 
     <ImageButton
         android:id="@+id/Menu"

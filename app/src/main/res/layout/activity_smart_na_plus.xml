@@ -1,9 +1,235 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SmartNa_plus">
+    android:background="#00F0FF"
+    android:orientation="vertical"
+    tools:context=".B3_SmartNa_plus">
 
-</android.support.constraint.ConstraintLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/smartna_white" />
+        <GridLayout
+            android:id="@+id/Mgrid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alignmentMode="alignMargins"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:rowCount="3">
+
+            <!--R1C1-->
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:padding="16dp">
+
+                    <Button
+                        android:id="@+id/concept"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Concept"
+                        android:background="#FFFFFF"/>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <!--R1C2-->
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:padding="16dp">
+
+                    <Button
+                        android:id="@+id/suggest"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Suggestion"
+                        android:background="#FFFFFF"/>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <!--R2C1-->
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:padding="8dp">
+
+                    <Button
+                        android:id="@+id/measure"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Measurement"
+                        android:background="#FFFFFF"
+                     />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <!--R2C2-->
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:padding="16dp">
+
+
+                    <Button
+                        android:id="@+id/app_concpet"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="App Concept"
+                        android:background="#FFFFFF"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <!--R3C1-->
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:padding="16dp">
+
+                    <Button
+                        android:id="@+id/practice"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Practice"
+                        android:background="#FFFFFF"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <!--R3C2-->
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:padding="16dp">
+
+                    <Button
+                        android:id="@+id/impact"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Impact"
+                        android:background="#FFFFFF"
+                        />
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </GridLayout>
+
+    </LinearLayout>
+
+    <!--
+
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/practice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="236dp"
+        android:text="Practice"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/measure"
+        app:layout_constraintVertical_bias="0.843" />
+
+    <Button
+        android:id="@+id/impact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="244dp"
+        android:text="Impact"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/practice" />
+        -->
+
+</ScrollView>

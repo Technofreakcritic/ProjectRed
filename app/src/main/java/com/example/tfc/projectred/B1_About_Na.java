@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
-public class About_Na extends AppCompatActivity {
+public class B1_About_Na extends AppCompatActivity {
 
     public ImageButton menu ;
 
@@ -19,7 +19,7 @@ public class About_Na extends AppCompatActivity {
         menu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               startActivity(new Intent(About_Na.this,Splash_Screen.class));
+               startActivity(new Intent(B1_About_Na.this,A1_Splash_Screen.class));
             }
         });
     }

@@ -15,22 +15,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Splash_Screen">
+        <activity android:name=".A1_Splash_Screen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Main_Menu" />
-        <activity android:name=".Contact_Us" />
-        <activity android:name=".FAQ" />
-        <activity android:name=".About_Na"></activity>
+        <activity android:name=".A2_Main_Menu" />
+        <activity android:name=".B2_Contact_Us" />
+        <activity android:name=".B7_FAQ" />
+        <activity android:name=".B1_About_Na"></activity>
         <activity
             android:name=".Navigation"
             android:label="@string/title_activity_navigation"
             android:theme="@style/AppTheme" />
-        <activity android:name=".SmartNa_plus"></activity>
+        <activity android:name=".B3_SmartNa_plus"></activity>
     </application>
 
 </manifest>
