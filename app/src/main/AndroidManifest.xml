@@ -25,12 +25,13 @@
         <activity android:name=".A2_Main_Menu" />
         <activity android:name=".B2_Contact_Us" />
         <activity android:name=".B7_FAQ" />
-        <activity android:name=".B1_About_Na"></activity>
+        <activity android:name=".B1_About_Na" />
         <activity
             android:name=".Navigation"
             android:label="@string/title_activity_navigation"
             android:theme="@style/AppTheme" />
-        <activity android:name=".B3_SmartNa_plus"></activity>
+        <activity android:name=".B3_SmartNa_plus" />
+        <activity android:name=".B4_Necessary_Sodium"></activity>
     </application>
 
 </manifest>

@@ -5,11 +5,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.CardView;
 import android.view.View;
+import android.widget.Button;
 import android.widget.GridLayout;
 
 public class B3_SmartNa_plus extends AppCompatActivity {
 
     GridLayout mainGrid;
+    public Button concept ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
