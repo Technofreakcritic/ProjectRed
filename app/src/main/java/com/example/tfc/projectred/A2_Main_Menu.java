@@ -12,7 +12,7 @@ public class A2_Main_Menu extends AppCompatActivity {
     public ImageButton abt_na,help,contact;
     public ImageButton smartna;
 
-    public Button Nec_sod;
+    public Button Nec_sod , Recipes;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +25,8 @@ public class A2_Main_Menu extends AppCompatActivity {
         smartna = (ImageButton)findViewById(R.id.smartna_plus);
 
         Nec_sod = (Button) findViewById(R.id.nec_sod);
+        Recipes = (Button) findViewById(R.id.btn_recipe);
+
 
 
         abt_na.setOnClickListener(new View.OnClickListener() {
@@ -59,6 +61,13 @@ public class A2_Main_Menu extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(A2_Main_Menu.this,B4_Necessary_Sodium.class));
+            }
+        });
+
+        Recipes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(A2_Main_Menu.this,Recipes.class));
             }
         });
 
