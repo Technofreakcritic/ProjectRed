@@ -32,7 +32,8 @@
             android:theme="@style/AppTheme" />
         <activity android:name=".B3_SmartNa_plus" />
         <activity android:name=".B4_Necessary_Sodium" />
-        <activity android:name=".Recipes"></activity>
+        <activity android:name=".Recipes" />
+        <activity android:name=".FoodList"></activity>
     </application>
 
 </manifest>

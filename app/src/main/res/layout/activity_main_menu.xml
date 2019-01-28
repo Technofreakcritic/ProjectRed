@@ -28,19 +28,20 @@
 
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
         android:background="@mipmap/smartna_button"
         android:text="SMART Na+"
         app:layout_constraintBottom_toTopOf="@+id/nec_sod"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.408"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
+    <ImageButton
         android:id="@+id/nec_sod"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="192dp"
+        android:layout_marginEnd="36dp"
         android:layout_marginBottom="32dp"
+        android:background="@mipmap/necessary_btn"
         android:text="Necessary Sodium"
         app:layout_constraintBottom_toTopOf="@+id/button6"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -49,24 +50,28 @@
         android:id="@+id/FL"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginBottom="136dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="144dp"
         android:text="Food List"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
+    <ImageButton
         android:id="@+id/btn_recipe"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="104dp"
+        android:layout_marginBottom="8dp"
+        android:background="@mipmap/rcp_btn"
         android:text="Recipes"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button6"
-        app:layout_constraintHorizontal_bias="0.307"
-        app:layout_constraintStart_toEndOf="@+id/FL" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.408"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/FL"
+        app:layout_constraintVertical_bias="0.182" />
 
     <Button
         android:id="@+id/button6"

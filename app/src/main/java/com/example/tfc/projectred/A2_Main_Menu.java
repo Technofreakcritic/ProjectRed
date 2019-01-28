@@ -12,7 +12,9 @@ public class A2_Main_Menu extends AppCompatActivity {
     public ImageButton abt_na,help,contact;
     public ImageButton smartna;
 
-    public Button Nec_sod , Recipes;
+    public ImageButton Nec_sod , Recipes;
+
+    public Button FL;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,10 +26,10 @@ public class A2_Main_Menu extends AppCompatActivity {
         contact = (ImageButton)findViewById(R.id.contact);
         smartna = (ImageButton)findViewById(R.id.smartna_plus);
 
-        Nec_sod = (Button) findViewById(R.id.nec_sod);
-        Recipes = (Button) findViewById(R.id.btn_recipe);
+        Nec_sod = (ImageButton) findViewById(R.id.nec_sod);
+        Recipes = (ImageButton) findViewById(R.id.btn_recipe);
 
-
+        FL  = (Button)findViewById(R.id.FL);
 
         abt_na.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -68,6 +70,13 @@ public class A2_Main_Menu extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(A2_Main_Menu.this,Recipes.class));
+            }
+        });
+
+        FL.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(A2_Main_Menu.this,FoodList.class));
             }
         });
 
