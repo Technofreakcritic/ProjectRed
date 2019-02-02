@@ -10,118 +10,129 @@
 
     <ImageButton
         android:id="@+id/intro"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="121dp"
+        android:layout_height="85dp"
 
         android:layout_marginStart="8dp"
+        android:layout_marginTop="144dp"
         android:layout_marginEnd="8dp"
-        android:background="@mipmap/about_na_button_new"
-        app:layout_constraintBottom_toTopOf="@+id/smartna_plus"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.51"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:background="@drawable/group12"
+        app:layout_constraintEnd_toStartOf="@+id/smartna_plus"
+        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/smartna_plus"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="121dp"
+        android:layout_height="85dp"
 
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        android:background="@mipmap/smartna_button"
+        android:layout_marginTop="144dp"
+        android:layout_marginEnd="52dp"
+        android:background="@drawable/group13"
         android:text="SMART Na+"
-        app:layout_constraintBottom_toTopOf="@+id/nec_sod"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.408"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/nec_sod"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="36dp"
-        android:layout_marginBottom="32dp"
-        android:background="@mipmap/necessary_btn"
+        android:layout_width="121dp"
+        android:layout_height="85dp"
+
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/group14"
         android:text="Necessary Sodium"
-        app:layout_constraintBottom_toTopOf="@+id/button6"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/intro" />
 
     <Button
         android:id="@+id/FL"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
-        android:layout_marginBottom="144dp"
-        android:text="Food List"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:layout_width="121dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/group15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.435"
+        app:layout_constraintStart_toEndOf="@+id/nec_sod"
+        app:layout_constraintTop_toBottomOf="@+id/smartna_plus" />
 
     <ImageButton
         android:id="@+id/btn_recipe"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        android:background="@mipmap/rcp_btn"
+        android:layout_width="121dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/group16"
         android:text="Recipes"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.408"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/FL"
-        app:layout_constraintVertical_bias="0.182" />
+        app:layout_constraintTop_toBottomOf="@+id/nec_sod" />
 
     <Button
         android:id="@+id/button6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="152dp"
-        android:text="Articles"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        android:layout_width="121dp"
+        android:layout_height="85dp"
+
+
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/group17"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.435"
+        app:layout_constraintStart_toEndOf="@+id/btn_recipe"
+        app:layout_constraintTop_toBottomOf="@+id/FL" />
 
     <ImageButton
         android:id="@+id/help"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
+        android:layout_width="121dp"
+        android:layout_height="85dp"
 
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="32dp"
-        android:background="@drawable/new_help"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/contact"
-        app:layout_constraintHorizontal_bias="0.076"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/group18"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_recipe" />
 
     <ImageButton
         android:id="@+id/contact"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="121dp"
+        android:layout_height="85dp"
 
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="32dp"
-        android:background="@drawable/phone_c"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/group20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.435"
+        app:layout_constraintStart_toEndOf="@+id/help"
+        app:layout_constraintTop_toBottomOf="@+id/button6" />
 
     <ImageView
         android:id="@+id/logo"
         android:layout_width="203dp"
-        android:layout_height="118dp"
+        android:layout_height="90dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/intro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/logo_small" />
+
+    <ImageView
+        android:id="@+id/catchline"
+        android:layout_width="203dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.228"
-        app:srcCompat="@mipmap/logo_small" />
+        app:srcCompat="@drawable/catchline" />
 
 </android.support.constraint.ConstraintLayout>

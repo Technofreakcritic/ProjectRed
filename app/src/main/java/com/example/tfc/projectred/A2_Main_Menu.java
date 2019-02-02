@@ -33,52 +33,27 @@ public class A2_Main_Menu extends AppCompatActivity {
 
         abt_na.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                startActivity(new Intent(A2_Main_Menu.this,B1_About_Na.class));
-            }
-        });
-
+            public void onClick(View v) { startActivity(new Intent(A2_Main_Menu.this,B1_About_Na.class)); }});
         help.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                startActivity(new Intent(A2_Main_Menu.this,B7_FAQ.class));
-            }
+            public void onClick(View v) {   startActivity(new Intent(A2_Main_Menu.this,New_FAQ.class)); }
         });
-
         contact.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                startActivity(new Intent(A2_Main_Menu.this,B2_Contact_Us.class));
-            }
+            public void onClick(View v) {startActivity(new Intent(A2_Main_Menu.this,B2_Contact_Us.class)); }
         });
-
         smartna.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                startActivity(new Intent(A2_Main_Menu.this,B3_SmartNa_plus.class));
-            }
-        });
-
+            public void onClick(View v) {startActivity(new Intent(A2_Main_Menu.this,B3_SmartNa_plus.class)); }});
         Nec_sod.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                startActivity(new Intent(A2_Main_Menu.this,B4_Necessary_Sodium.class));
-            }
-        });
-
+            public void onClick(View v) {startActivity(new Intent(A2_Main_Menu.this,B4_Necessary_Sodium.class)); }});
         Recipes.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                startActivity(new Intent(A2_Main_Menu.this,Recipes.class));
-            }
-        });
-
+            public void onClick(View v) {startActivity(new Intent(A2_Main_Menu.this,Recipes.class)); }});
         FL.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                startActivity(new Intent(A2_Main_Menu.this,FoodList.class));
-            }
-        });
+            public void onClick(View v) {     startActivity(new Intent(A2_Main_Menu.this,FoodList.class)); }});
 
     }
 }

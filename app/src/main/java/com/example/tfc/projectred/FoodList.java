@@ -25,10 +25,10 @@ public class FoodList extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
         mlist.add(new item(R.drawable.burgers,"Burgers",8));
-        mlist.add(new item(R.drawable.rice,"Rice",2));
-        mlist.add(new item(R.drawable.cookies,"Cookies",1));
-        mlist.add(new item(R.drawable.pizza,"Pizza",5));
-        mlist.add(new item(R.drawable.chicken," Fried Chicken",3));
+        mlist.add(new item(R.drawable.burgers,"Rice",2));
+        mlist.add(new item(R.drawable.burgers,"Cookies",1));
+        mlist.add(new item(R.drawable.burgers,"Pizza",5));
+        mlist.add(new item(R.drawable.burgers," Fried Chicken",3));
 
 
 

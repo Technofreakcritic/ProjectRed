@@ -2,11 +2,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.tfc.projectred">
 
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
     <!-- To auto-complete the email text field in the login form with the user's emails -->
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.READ_PROFILE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
-    <uses-permission android:name="android.permission.CALL_PHONE" />
+
 
     <application
         android:allowBackup="true"
@@ -26,13 +28,14 @@
         <activity android:name=".B2_Contact_Us" />
         <activity android:name=".B7_FAQ" />
         <activity android:name=".B1_About_Na" />
-        <activity
+        <!--activity
             android:name=".Navigation"
             android:label="@string/title_activity_navigation"
-            android:theme="@style/AppTheme" />
+            android:theme="@style/AppTheme" /-->
         <activity android:name=".B3_SmartNa_plus" />
         <activity android:name=".B4_Necessary_Sodium" />
         <activity android:name=".Recipes" />
+        <activity android:name=".New_FAQ" />
         <activity android:name=".FoodList"></activity>
     </application>
 

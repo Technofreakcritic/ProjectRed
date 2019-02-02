@@ -42,7 +42,7 @@ public class Adapter2 extends RecyclerView.Adapter<Adapter2.myViewHolder> {
 
     @Override
     public int getItemCount() {
-        return 0;
+        return mData.size();
     }
 
 
