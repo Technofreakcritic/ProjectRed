@@ -27,7 +27,7 @@ public class New_FAQ extends AppCompatActivity {
                 " which leads to high blood pressure and other health issues.");
 
 
-        item.put("Difference between Sodium and Salt ? ", linuxGroups);
+        item.put("Difference between Sodium(Na) and Salt(NaCl) ? ", linuxGroups);
 
         ArrayList<String> windowsGroups = new ArrayList<>();
         windowsGroups.add
