@@ -53,7 +53,7 @@ public class A2_Main_Menu extends AppCompatActivity {
             public void onClick(View v) {startActivity(new Intent(A2_Main_Menu.this,Recipes.class)); }});
         FL.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {     startActivity(new Intent(A2_Main_Menu.this,FoodList.class)); }});
+            public void onClick(View v) {     startActivity(new Intent(A2_Main_Menu.this,FoodListNew.class)); }});
 
     }
 }
