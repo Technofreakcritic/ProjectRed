@@ -17,7 +17,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".A1_Splash_Screen">
-           <intent-filter>
+            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -25,22 +25,14 @@
         </activity>
         <activity android:name=".A2_Main_Menu" />
         <activity android:name=".B2_Contact_Us" />
-        <activity android:name=".B7_FAQ" />
         <activity android:name=".B1_About_Na" />
-        <!--
-            activity
-            android:name=".Navigation"
-            android:label="@string/title_activity_navigation"
-            android:theme="@style/AppTheme" /
-        -->
+
         <activity android:name=".B3_SmartNa_plus" />
         <activity android:name=".B4_Necessary_Sodium" />
         <activity android:name=".Recipes" />
-        <activity android:name=".New_FAQ" />
-        <activity android:name=".FoodList" />
-        <activity android:name=".FoodListNew">
+        <activity android:name=".B7_New_FAQ" />
+        <activity android:name=".FoodListNew"></activity>
 
-        </activity>
     </application>
 
 </manifest>

@@ -15,6 +15,12 @@ public class A2_Main_Menu extends AppCompatActivity {
     public ImageButton Nec_sod , Recipes;
 
     public Button FL;
+  //  public Toolbar toolbar = findViewById(R.id.toolbar);
+
+   /* @Override
+    public void setSupportActionBar(@Nullable Toolbar toolbar) {
+        super.setSupportActionBar(toolbar);
+    }*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,7 +42,7 @@ public class A2_Main_Menu extends AppCompatActivity {
             public void onClick(View v) { startActivity(new Intent(A2_Main_Menu.this,B1_About_Na.class)); }});
         help.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {   startActivity(new Intent(A2_Main_Menu.this,New_FAQ.class)); }
+            public void onClick(View v) {   startActivity(new Intent(A2_Main_Menu.this,B7_New_FAQ.class)); }
         });
         contact.setOnClickListener(new View.OnClickListener() {
             @Override

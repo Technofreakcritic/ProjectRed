@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class New_FAQ extends AppCompatActivity {
+public class B7_New_FAQ extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
