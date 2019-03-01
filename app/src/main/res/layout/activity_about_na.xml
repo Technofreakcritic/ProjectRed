@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#00F0FF"
+    android:background="#FFFFFF"
     tools:context=".B1_About_Na">
 
     <ScrollView
@@ -25,12 +25,13 @@
 
             <ImageView
                 android:id="@+id/info"
-                android:layout_width="268dp"
+                android:layout_width="290dp"
                 android:layout_height="466dp"
                 android:layout_marginStart="55dp"
 
-                android:layout_marginTop="120dp"
-                android:src="@mipmap/about_na"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/about_na_updated"
+
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="@+id/scrollView2" />
         </LinearLayout>
